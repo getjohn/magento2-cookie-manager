@@ -1,5 +1,5 @@
 {
-    "name": "getjohn/module-cookiemanager",
+    "name": "getjohn/magento2-cookie-manager",
     "description": "Cookie setting overrides",
     "type": "magento2-module",
     "license": [
