@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<preference for="Magento\Framework\Stdlib\CookieManagerInterface" type="GetJohn\CookieManger\Model\CookieManager" />
+	<type name="Magento\Framework\Stdlib\Cookie\PhpCookieManager">
+		<plugin name="getjohn_cookiemanager_setcookie" type="GetJohn\PunchoutHub\Plugin\PhpCookieManagerPlugin"/>
+	</type>
+</config>

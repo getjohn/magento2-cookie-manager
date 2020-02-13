@@ -1,0 +1,24 @@
+{
+    "name": "getjohn/module-cookiemanager",
+    "description": "Cookie setting overrides",
+    "type": "magento2-module",
+    "license": [
+        "proprietary"
+    ],
+    "authors":[
+        {
+            "name":"Get John Ltd",
+            "email":"john@getjohn.co.uk"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "GetJohn\\CookieManager\\": ""
+        }
+    }
+}
