@@ -1,6 +1,8 @@
 Magento2 Cookie Manager Replacement
 ===================================
 
+*DEPRECATED* use https://github.com/Veriteworks/CookieFix instead
+
 This is a temporary way of cleanly adding the 'SameSite' attribute to your Magento session cookies while
 we wait for [this issue](https://github.com/magento/magento2/issues/26377) to be fixed.
 
